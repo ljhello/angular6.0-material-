@@ -1,0 +1,270 @@
+.nav{
+  height: 80px;
+  padding: 0px !important;
+  font-family: 'brandon','PingFang SC',"Microsoft YaHei","微软雅黑","华文细黑",sans-serif;
+  .nav-box{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    img{
+      float: left;
+      height: 95%;
+      width: 100px;
+      margin: 15px 20px 0px 0px;
+    }
+    span {
+      color: white;
+      float: left;
+      margin: 30px 0px 0px 20px;
+    }
+    button{
+      border: none;
+      background-color: transparent;
+      color:rgba(255,255,255,0.65);
+      float: right;
+      margin: 30px 0px 0px 0px;
+      mat-icon{
+        font-size: 30px;
+      }
+    }
+  }
+}
+.station-content{
+  width: 100%;
+  margin-top: 110px;
+  .station-box{
+    width: 60%;
+    margin: 0 auto;
+    .son-img{
+      height: 80%;
+      padding-top: 20px;
+      box-sizing: border-box;
+      float: left;
+    }
+    .son-info{
+      padding-top: 20px;
+      margin-left: 30px;
+      float:left;
+    }
+    .new-box{
+      height: 70px;
+      border-bottom: 1px solid #ccc;
+    }
+    .station-num{
+      color: rgba(0,0,0,0.5);
+      margin-left: 20px;
+    }
+    .new-station{
+    border: 1px solid transparent;
+    background: #3f51b5;
+    border-color: #3f51b5;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 160px;
+    height: 46px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    mat-icon{
+      position: absolute;
+      left: 20px;
+      top: 10px;
+    }
+    span{
+      margin-left: 30px;
+    }
+    }
+    .son-station{
+       height: 180px;
+       border-bottom: 1px solid #ccc;
+       .title{
+         color:#aeb2b7;
+         font-size: 28px;
+       }
+       .manage{
+        border: 1px solid transparent;
+        background: #3f51b5;
+        border-color: #3f51b5;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 90px;
+        height: 36px;
+        color: white;
+        position: relative;
+        margin-right: 20px;
+        mat-icon{
+        position: absolute;
+        font-size: 20px;
+        left: 10px;
+        top: 9px;
+        }
+        span{
+        margin-left: 20px;
+        }
+       }
+       .page-view{
+         float: right;
+         height: 120px;
+         width: 102px;
+         border: 1px solid #ccc;
+         margin-top: 20px;
+         margin-right: 20px;
+         text-align: center;
+         a{
+           display: block;
+           height: 100%;
+           width: 100%;
+           color: black;
+           text-decoration: none;
+           .h4{
+             font-size: 30px;
+             height: 50px;
+             line-height: 50px;
+             margin-top: 10px;
+             color: rgb(99, 105, 114);
+           }
+         }
+         span{
+           font-size: 14px;
+           color: rgb(169, 174, 178);
+         }
+       }
+    }
+  }
+}
+@media screen and (max-width: 994px) {
+  .user-person{
+    margin-right: 10px;
+  }
+  .nav{
+     height: 66px;
+     width: 100% !important;
+     box-sizing: border-box !important;
+    .nav-box{
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      img{
+        float: left;
+        height: 95%;
+        width: 100px;
+        margin: 10px 10px 0px 5px;
+      }
+      span {
+        color: white;
+        float: left;
+        margin: 22px 0px 0px 10px;
+      }
+      button{
+        border: none;
+        background-color: transparent;
+        color:rgba(255,255,255,0.65);
+        float: right;
+        margin: 22px 0px 0px 0px;
+        mat-icon{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .station-content{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    margin-top: 80px;
+    padding: 0px 10px;
+    box-sizing: border-box !important;
+    .select{
+      display: none !important;
+    }
+    .station-box{
+      width: 100%;
+      margin: 0 auto;
+      .son-img{
+        height: 110px;
+        width:110px;
+        padding-top: 20px;
+        box-sizing: border-box;
+        float: left;
+      }
+      .son-info{
+        padding-top: 20px;
+        margin-left: 0px;
+        float: left;
+        width: 60% !important;
+      }
+      .station-link{
+        display: block;
+      }
+      .new-box{
+        height: 100px;
+        border-bottom: 1px solid #ccc;
+      }
+      .station-num{
+        color: rgba(0,0,0,0.5);
+        margin-left: 0px;
+      }
+      .new-station{
+      border: 1px solid transparent;
+      background: #3f51b5;
+      border-color: #3f51b5;
+      display: block;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 160px;
+      height: 46px;
+      color: white;
+      font-weight: bold;
+      position: relative;
+      margin: 10px 0px;
+      mat-icon{
+        position: absolute;
+        left: 20px;
+        top: 10px;
+      }
+      span{
+        margin-left: 30px;
+      }
+      }
+      .son-station{
+         height: 180px;
+         border-bottom: 1px solid #ccc;
+         .title{
+           color:#aeb2b7;
+           font-size: 20px;
+         }
+         .manage{
+          border: 1px solid transparent;
+          background: #3f51b5;
+          border-color: #3f51b5;
+          display: inline-block;
+          vertical-align: middle;
+          border-radius: 4px;
+          cursor: pointer;
+          width: 70px;
+          height: 34px;
+          color: white;
+          position: relative;
+          margin-right: 20px;
+          mat-icon{
+            position: absolute;
+            font-size: 18px;
+            left: 6px;
+            top: 9px;
+          }
+          span{
+            margin-left: 20px;
+          }
+         }
+         .page-view{
+          display: none;
+         }
+      }
+    }
+
+  }
+}

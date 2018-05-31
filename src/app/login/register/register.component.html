@@ -1,0 +1,54 @@
+<div class="login">
+
+<div class="form">
+    <mat-card >
+      <mat-card-header>
+        <mat-card-title>注册：</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-form-field class="example-form-field">
+          <input matInput type="tel" placeholder="手机号码：" [(ngModel)]="telnum"/>
+          <button mat-button *ngIf="telnum" matSuffix mat-icon-button aria-label="Clear" (click)="telnum=''">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-form-field>
+        <mat-form-field class="example-form-field">
+          <input matInput type="password" placeholder="设置密码：" [(ngModel)]="password"/>
+          <button mat-button *ngIf="password" matSuffix mat-icon-button aria-label="Clear" (click)="password=''">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-form-field>
+        <mat-form-field class="example-form-field" style="width: 100%;">
+          <input matInput type="text" placeholder="验证码：" [(ngModel)]="identify"/>
+          <button mat-button *ngIf="identify" matSuffix mat-icon-button aria-label="Clear" (click)="identify=''">
+            <mat-icon>close</mat-icon>
+          </button>
+          <button  mat-button  matSuffix style="background-color: #ddd;">获取验证码</button>
+        </mat-form-field>
+        <mat-card-actions class="text-right">
+
+       </mat-card-actions>
+       <button mat-raised-button type="submit" color="primary" style="width: 100%;margin-top: 20px;background:#3f51b5;border-radius: 4px;">立即注册</button>
+      </mat-card-content>
+      <p  class="change">已有账户？ <a href='/login'>登录</a> </p>
+
+    </mat-card>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

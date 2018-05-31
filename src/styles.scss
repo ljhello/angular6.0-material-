@@ -1,0 +1,199 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+
+*{outline:none;}
+
+html,body,app-root,mat-sidenav-container,.site{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  line-height: normal;
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button:focus{
+  outline: 0;
+  border: none;
+}
+body{
+  overflow: hidden;
+}
+.site{
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex: 1;
+}
+.nav{
+  display: inherit !important;
+  border-right: 1px solid #ccc;
+  margin-right: 10px;
+}
+.tab-content > .active{
+  width: 78%;
+  float: right;
+  margin-top: 10px;
+  height: 100%;
+  overflow: scroll;
+}
+.tab-content{
+  height: 90%;
+}
+.nav-item{
+  width: 80%;
+  margin-top: 10px;
+}
+.mat-tab-body-content{
+  height: 350px !important;
+  overflow: hidden !important;
+}
+.mat-dialog-container{
+  width: 670px !important;
+}
+.mat-expansion-panel-body{
+  padding: 0px !important;
+}
+.bottom-box[_ngcontent-c18]{
+  text-align: center;
+  line-height: 300px;
+  font-size: 24px;
+}
+.nav{
+  width: 130px;
+  float: left;
+  height: 100%;
+}
+.pics-box[_ngcontent-c18]{
+  width: 100% !important;
+}
+.nav-pills .nav-link.active{
+  background-color: #673ab7 !important;
+}
+.nav-link{
+  color:#636972;
+}
+.nav-link:hover{
+ background-color: #754cbd;
+}
+@media screen and (min-width: 994px) {
+.mat-drawer-backdrop{
+  display: none !important;
+}
+
+}
+@media screen and (max-width: 994px) {
+  .mat-dialog-container{
+    max-width: 100% !important;
+  }
+
+  .cdk-overlay-pane{
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+  }
+  .before-up[_ngcontent-c11] {
+    height: auto !important;
+  }
+  .pics-box[_ngcontent-c11]{
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .mat-tab-body-content{
+    height: 100% !important;
+  }
+  .before-up[_ngcontent-c18]{
+    height: 85% !important;
+  }
+  .mat-dialog-container{
+    padding: 0px !important;
+    padding-top: 20px !important;
+  }
+  .upclose[_ngcontent-c18]{
+    top: -20px;
+    right: 10px !important;
+  }
+  .bottom-box[_ngcontent-c18]{
+    width: 90%;
+    margin: 30px auto !important;
+  }
+  .before-up[_ngcontent-c18] .imgbox[_ngcontent-c18]{
+    height: 190px !important;
+    width: 45% !important;
+  }
+  .nav-link{
+    padding: 0.5rem 0.5rem !important;
+    font-size: 14px;
+    width: 80%;
+    margin-left: 5px;
+  }
+  .nav{
+    width: 100px !important;
+    margin-right: 0px !important;
+  }
+  .tab-content > .active{
+    width: 65% !important;
+  }
+  .uppicbox{
+    height: 100% !important;
+  }
+  .mat-dialog-container{
+    overflow: hidden !important;
+  }
+  .mat-tab-body-wrapper{
+    height: 680px;
+  }
+  .pics-box[_ngcontent-c18]{
+    height: 100% !important;
+  }
+}
+
+
+mat-sidenav-container {
+  height: 100%;
+}
+
+.mat-sidenav-content::-webkit-scrollbar, body::-webkit-scrollbar, mat-sidenav.sidenav::-webkit-scrollbar, .main-container::-webkit-scrollbar {
+  height: 6px;
+  width: 6px
+}
+
+.mat-sidenav-content::-webkit-scrollbar-trac, body::-webkit-scrollbar-track, mat-sidenav.sidenav::-webkit-scrollbar-trac, .main-container::-webkit-scrollbar-trac {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3)
+}
+
+.mat-sidenav-content::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb, mat-sidenav.sidenav::-webkit-scrollbar-thumb, .main-container::-webkit-scrollbar-thumb {
+  background-color: #6e6e6e;
+  outline: 1px solid #333
+}
+*, *::before, *::after{
+  box-sizing: inherit !important;
+}
+.ql-editor{
+  min-height: 300px;
+}
+.navigation-link-badge{
+  box-sizing: border-box !important;
+}
+.badge[_ngcontent-c15]{
+  box-sizing: border-box !important;
+  line-height: 15px !important;
+}
+.badge[_ngcontent-c14]{
+  box-sizing: border-box !important;
+  line-height: 15px !important;
+}
+.badge[_ngcontent-c19]{
+  box-sizing: border-box !important;
+  line-height: 15px !important;
+}
+button{
+  box-sizing: border-box !important;
+}
+

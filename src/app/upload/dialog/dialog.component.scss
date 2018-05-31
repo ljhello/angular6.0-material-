@@ -1,0 +1,55 @@
+.uppicbox{
+  position: relative;
+}
+
+.bottom-box{
+  height: 300px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  border: 2px dashed #ccc;
+}
+.before-up{
+  margin-top: 30px;
+  padding: 0px 10px;
+  button{
+  float: left;
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border: 1px dashed #ccc;
+    text-align: center;
+    mat-icon{
+      height: 50px;
+      width: 50px;
+    font-size: 50px;
+    }
+  }
+  .imgbox{
+    float: left;
+    height: 160px;
+    width: 140px;
+    overflow: hidden;
+    margin-left:10px;
+    margin-bottom: 10px;
+  }
+}
+.pics-box{
+width: 450px;
+height: 400px;
+
+}
+.mat-tab-header{
+  border: none !important;
+}
+
+.before-up{
+  height: 300px;
+  overflow: scroll;
+}
+.upclose{
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  cursor: pointer;
+}
+

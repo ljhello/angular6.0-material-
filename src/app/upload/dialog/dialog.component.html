@@ -1,0 +1,76 @@
+<div class="uppicbox">
+  <mat-icon class="upclose" (click)='onNoClick()'>close</mat-icon>
+<mat-tab-group>
+
+  <mat-tab label="上传图片">
+    <div class="bottom-box">
+      <div>
+         上传图片
+      </div>
+    </div>
+  </mat-tab>
+  <mat-tab label="已上传的图片">
+    <div style="border-bottom:1px solid #ccc;padding:5px 5px;">
+        <button mat-mini-fab color="primary">
+            <mat-icon>add</mat-icon>
+        </button>
+        <span style="float:right;margin-top:5px;">4个文件，1.71MB</span>
+    </div>
+    <div class="before-up">
+      <div class="imgbox">
+        <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2486956696,687545127&fm=27&gp=0.jpg" alt="">
+      </div>
+      <div class="imgbox">
+          <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1972873509,2904368741&fm=27&gp=0.jpg" alt="">
+      </div>
+        <div class="imgbox">
+            <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2486956696,687545127&fm=27&gp=0.jpg" alt="">
+          </div>
+          <div class="imgbox">
+              <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1972873509,2904368741&fm=27&gp=0.jpg" alt="">
+          </div>
+          <div class="imgbox">
+            <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2486956696,687545127&fm=27&gp=0.jpg" alt="">
+          </div>
+    </div>
+  </mat-tab>
+  <mat-tab label="图库">
+    <div class="pics-box">
+      <ngb-tabset type="pills">
+        <ngb-tab title="人物图片">
+          <ng-template ngbTabContent>
+            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+            master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+            dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+            iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle>风景图片</ng-template>
+          <ng-template ngbTabContent>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+            <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table
+            craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl
+            cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia
+            yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean
+            shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher </p>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle>文艺清晰</ng-template>
+          <ng-template ngbTabContent>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+            <p>000000000</p>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle>自然风光</ng-template>
+          <ng-template ngbTabContent>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+            <p>123</p>
+          </ng-template>
+        </ngb-tab>
+
+      </ngb-tabset>
+
+    </div>
+  </mat-tab>
+</mat-tab-group>
+</div>

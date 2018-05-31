@@ -1,0 +1,30 @@
+<div class="login">
+
+<div class="form">
+    <mat-card >
+      <mat-card-header>
+        <mat-card-title>登录：</mat-card-title>
+      </mat-card-header>
+      <mat-card-content style='margin-top: 30px;'>
+        <mat-form-field class="example-form-field">
+          <input matInput type="tel" placeholder="手机号码：" [(ngModel)]="telnum"/>
+          <button mat-button *ngIf="telnum" matSuffix mat-icon-button aria-label="Clear" (click)="telnum=''">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-form-field>
+        <mat-form-field class="example-form-field">
+          <input matInput type="password" placeholder="密码：" [(ngModel)]="password"/>
+          <button mat-button *ngIf="password" matSuffix mat-icon-button aria-label="Clear" (click)="password=''">
+            <mat-icon>close</mat-icon>
+          </button>
+        </mat-form-field>
+        <mat-card-actions class="text-right" >
+
+          <p> <a routerLink="/register">忘记密码?</a></p>
+       </mat-card-actions>
+       <button mat-raised-button type="submit" style="width: 100%;margin-top: 30px;background:#3f51b5;border-radius: 4px; " color="primary">登录</button>
+      </mat-card-content>
+      <p class="change">还没有账户？ <a routerLink="/register">注册</a>  </p>
+    </mat-card>
+  </div>
+</div>
